@@ -1,43 +1,63 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# Flutter/Dart generated files
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+.packages
 .pub-cache/
 .pub/
-/build/
+build/
 
-# Symbolication related
-app.*.symbols
+# Lock file (keep for Flutter)
+# pubspec.lock is typically kept in apps, excluded in packages
 
-# Obfuscation related
-app.*.map.json
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# OS
+.DS_Store
+
+# Coverage
+coverage/
+
+# Web build
+web/build/
+.firebase/
+
+# iOS build
+ios/.symlinks/
+ios/Pods/
+ios/.generated/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.hmap
+*.ipa
+
+# Android build
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/.idea/
+android/key.properties
+*.jks
+*.keystore
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Test
+test/.test_coverage.dart
