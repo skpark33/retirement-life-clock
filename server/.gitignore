@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Lock file (optional: uncomment to exclude)
+# package-lock.json
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store

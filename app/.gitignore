@@ -1,0 +1,63 @@
+# Flutter/Dart generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Lock file (keep for Flutter)
+# pubspec.lock is typically kept in apps, excluded in packages
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+
+# Coverage
+coverage/
+
+# Web build
+web/build/
+.firebase/
+
+# iOS build
+ios/.symlinks/
+ios/Pods/
+ios/.generated/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.hmap
+*.ipa
+
+# Android build
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/.idea/
+android/key.properties
+*.jks
+*.keystore
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Test
+test/.test_coverage.dart
